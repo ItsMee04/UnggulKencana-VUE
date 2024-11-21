@@ -63,47 +63,6 @@
                 <div class="form-login">
                   <button class="btn btn-login" type="submit">Sign In</button>
                 </div>
-                <div class="signinform">
-                  <h4>
-                    New on our platform?<a
-                      href="register-3.html"
-                      class="hover-a"
-                    >
-                      Create an account</a
-                    >
-                  </h4>
-                </div>
-                <div class="form-setlogin or-text">
-                  <h4>OR</h4>
-                </div>
-                <div class="form-sociallink">
-                  <ul class="d-flex">
-                    <li>
-                      <a href="javascript:void(0);" class="facebook-logo">
-                        <img
-                          src="/src/assets/img/icons/facebook-logo.svg"
-                          alt="Facebook"
-                        />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="javascript:void(0);">
-                        <img
-                          src="/src/assets/img/icons/google.png"
-                          alt="Google"
-                        />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="javascript:void(0);" class="apple-logo">
-                        <img
-                          src="/src/assets/img/icons/apple-logo.svg"
-                          alt="Apple"
-                        />
-                      </a>
-                    </li>
-                  </ul>
-                </div>
               </div>
             </form>
           </div>
