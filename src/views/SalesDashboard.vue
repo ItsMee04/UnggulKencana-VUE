@@ -499,5 +499,8 @@
 <script>
 export default {
   name: "SalesDashboard",
+  mounted() {
+    feather.replace();
+  },
 };
 </script>

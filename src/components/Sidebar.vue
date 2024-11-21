@@ -14,9 +14,15 @@
                 ></a>
                 <ul>
                   <li>
-                    <a href="index.html" class="active">Admin Dashboard</a>
+                    <router-link to="/home" class="active">
+                      Admin Dashboard</router-link
+                    >
                   </li>
-                  <li><a href="sales-dashboard.html">Sales Dashboard</a></li>
+                  <li>
+                    <router-link to="/sales-dashboard">
+                      Sales Dashboard</router-link
+                    >
+                  </li>
                 </ul>
               </li>
               <li class="submenu">
@@ -25,7 +31,7 @@
                   ><span class="menu-arrow"></span
                 ></a>
                 <ul>
-                  <li><a href="chat.html">Chat</a></li>
+                  <li><router-link to="/chat"> Chat</router-link></li>
                   <li class="submenu submenu-two">
                     <a href="javascript:void(0);"
                       >Call<span class="menu-arrow inside-submenu"></span

@@ -434,5 +434,33 @@
 <script>
 export default {
   name: "Home",
+  mounted() {
+    // Pastikan jQuery dijalankan setelah komponen dirender
+    this.animateCounters();
+    feather.replace();
+  },
+  methods: {
+    animateCounters() {
+      $(".counters").each(function () {
+        var $this = $(this),
+          countTo = $this.attr("data-count");
+        $({ countNum: $this.text() }).animate(
+          {
+            countNum: countTo,
+          },
+          {
+            duration: 2000,
+            easing: "linear",
+            step: function () {
+              $this.text(Math.floor(this.countNum));
+            },
+            complete: function () {
+              $this.text(this.countNum);
+            },
+          }
+        );
+      });
+    },
+  },
 };
 </script>
